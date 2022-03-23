@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinBasic">
         <activity
+            android:name=".basicsyntax.OperatorsActivity"
+            android:exported="false" />
+        <activity
             android:name=".basicsyntax.DataTypesActivity"
             android:exported="false" />
         <activity

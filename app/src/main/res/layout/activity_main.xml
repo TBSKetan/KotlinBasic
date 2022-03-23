@@ -20,4 +20,11 @@
         android:text="@string/data_types"
         app:layout_constraintTop_toBottomOf="@+id/btnBasicSyntax" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnOperators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/operators"
+        app:layout_constraintTop_toBottomOf="@+id/btnDataTypes" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
