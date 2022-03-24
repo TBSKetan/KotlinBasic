@@ -34,4 +34,25 @@
         android:text="@string/booleans"
         app:layout_constraintTop_toBottomOf="@+id/btnOperators" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStrings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strings"
+        app:layout_constraintTop_toBottomOf="@+id/btnBooleans" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnArrays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/arrays"
+        app:layout_constraintTop_toBottomOf="@+id/btnStrings" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRanges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ranges"
+        app:layout_constraintTop_toBottomOf="@+id/btnArrays" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

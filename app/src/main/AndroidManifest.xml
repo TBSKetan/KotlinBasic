@@ -10,6 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinBasic">
         <activity
+            android:name=".basicsyntax.RangeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_range"
+            android:theme="@style/Theme.KotlinBasic.NoActionBar" />
+        <activity
+            android:name=".basicsyntax.ArrayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".basicsyntax.StringsActivity"
+            android:exported="false" />
+        <activity
             android:name=".basicsyntax.BooleansActivity"
             android:exported="false" />
         <activity

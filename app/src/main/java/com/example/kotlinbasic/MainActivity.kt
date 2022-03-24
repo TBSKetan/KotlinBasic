@@ -4,10 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.example.kotlinbasic.basicsyntax.BasicSyntaxActivity
-import com.example.kotlinbasic.basicsyntax.BooleansActivity
-import com.example.kotlinbasic.basicsyntax.DataTypesActivity
-import com.example.kotlinbasic.basicsyntax.OperatorsActivity
+import com.example.kotlinbasic.basicsyntax.*
 import com.example.kotlinbasic.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -30,10 +27,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun interview() {
         //binding.btnBasicSyntax.setOnClickListener(this)
-        binding.btnBasicSyntax.setOnClickListener{onClick(it)}
-        binding.btnDataTypes.setOnClickListener{onClick(it)}
-        binding.btnOperators.setOnClickListener{onClick(it)}
-        binding.btnBooleans.setOnClickListener{onClick(it)}
+        binding.btnBasicSyntax.setOnClickListener { onClick(it) }
+        binding.btnDataTypes.setOnClickListener { onClick(it) }
+        binding.btnOperators.setOnClickListener { onClick(it) }
+        binding.btnBooleans.setOnClickListener { onClick(it) }
+        binding.btnStrings.setOnClickListener { onClick(it) }
+        binding.btnArrays.setOnClickListener { onClick(it) }
+        binding.btnRanges.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -52,6 +52,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnBooleans -> {
                 val intent = Intent(this, BooleansActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnStrings -> {
+                val intent = Intent(this, StringsActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnArrays -> {
+                val intent = Intent(this, ArrayActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnRanges->{
+                val intent = Intent(this, RangeActivity::class.java)
                 startActivity(intent)
             }
         }

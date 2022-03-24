@@ -3,4 +3,16 @@
     <string name="data_types">Data Types</string>
     <string name="operators">Operators</string>
     <string name="booleans">Booleans</string>
+    <string name="strings">Strings</string>
+    <string name="arrays">Arrays</string>
+    <string name="title_activity_range">RangeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="ranges">Ranges</string>
 </resources>
