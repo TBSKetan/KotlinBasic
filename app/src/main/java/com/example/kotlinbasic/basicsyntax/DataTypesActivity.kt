@@ -12,7 +12,6 @@ class DataTypesActivity : AppCompatActivity() {
     }
 
     private fun interview() {
-        //TODO("Not yet implemented")
         dataTypes()
         characterDataType()
         stringDataType()
@@ -22,7 +21,6 @@ class DataTypesActivity : AppCompatActivity() {
     }
 
     private fun dataTypesConversion() {
-        //TODO("Not yet implemented")
         println("------------dataTypesConversion------------")
         //Kotlin Data Type Conversion
         /*toByte()
@@ -40,7 +38,6 @@ class DataTypesActivity : AppCompatActivity() {
     }
 
     private fun arrayDataTypes() {
-        //TODO("Not yet implemented")
         //Kotlin Array Data Type
         println("------------arrayDataTypes------------")
         val number : IntArray = intArrayOf(1,2,3,4,5,6,7)
@@ -48,8 +45,6 @@ class DataTypesActivity : AppCompatActivity() {
     }
 
     private fun booleanDataTypes() {
-        //TODO("Not yet implemented")
-
         //Kotlin Boolean Data Type
         println("------------booleanDataTypes------------")
         val A: Boolean = true   // defining a variable with true value
@@ -62,7 +57,6 @@ class DataTypesActivity : AppCompatActivity() {
     }
 
     private fun stringDataType() {
-        //TODO("Not yet implemented")
         //Kotlin String Data Type
         println("------------stringDataType------------")
         val escapedString : String  = "I am escaped String!\n"
@@ -75,7 +69,6 @@ class DataTypesActivity : AppCompatActivity() {
     }
 
     private fun characterDataType() {
-        //TODO("Not yet implemented")
         //Kotlin Character Data Type
         println("------------characterDataType------------")
         val letter: Char = 'A'    // defining a Char variable        // Assigning a value to it
@@ -88,7 +81,6 @@ class DataTypesActivity : AppCompatActivity() {
     }
 
     private fun dataTypes() {
-        //TODO("Not yet implemented")
         //Data Types
         println("------------dataTypes------------")
 

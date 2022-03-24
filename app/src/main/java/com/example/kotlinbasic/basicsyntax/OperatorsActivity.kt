@@ -12,7 +12,6 @@ class OperatorsActivity : AppCompatActivity() {
     }
 
     private fun interview() {
-        //TODO("Not yet implemented")
         val a: Int = 40
         val b: Int = 20
         arithmeticOperators(a,b)

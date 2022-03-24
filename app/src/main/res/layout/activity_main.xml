@@ -27,4 +27,11 @@
         android:text="@string/operators"
         app:layout_constraintTop_toBottomOf="@+id/btnDataTypes" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBooleans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/booleans"
+        app:layout_constraintTop_toBottomOf="@+id/btnOperators" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
