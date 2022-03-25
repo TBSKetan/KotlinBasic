@@ -34,6 +34,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnStrings.setOnClickListener { onClick(it) }
         binding.btnArrays.setOnClickListener { onClick(it) }
         binding.btnRanges.setOnClickListener(this)
+        binding.btnConditionExpression.setOnClickListener(this)
+        binding.btnControlFlow.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -62,8 +64,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val intent = Intent(this, ArrayActivity::class.java)
                 startActivity(intent)
             }
-            R.id.btnRanges->{
+            R.id.btnRanges -> {
                 val intent = Intent(this, RangeActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnConditionExpression -> {
+                val intent = Intent(this, ConditionalExpressionsActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnControlFlow -> {
+                val intent = Intent(this, ControlFlowActivity::class.java)
                 startActivity(intent)
             }
         }

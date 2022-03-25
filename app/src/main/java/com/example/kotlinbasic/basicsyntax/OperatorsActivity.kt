@@ -20,7 +20,23 @@ class OperatorsActivity : AppCompatActivity() {
         unaryOperators(a,b)
         logicalOperators()
         bitwiseOperators()
+        comparisonOperators()
     }
+
+    private fun comparisonOperators() {
+        println("------------comparisonOperators------------")
+        var myAge = 19
+        var sisterAge = 11
+        var cousinAge = 11
+
+        myAge > sisterAge  // true
+        myAge < cousinAge  // false
+        myAge >= cousinAge // true
+        myAge <= sisterAge // false
+
+        println(myAge)
+    }
+
     private fun arithmeticOperators(a: Int, b: Int) {
         //Kotlin Arithmetic Operators
         println("------------arithmeticOperators------------")
@@ -91,6 +107,19 @@ class OperatorsActivity : AppCompatActivity() {
         println("x && y = " +  (x && y))
         println("x || y = " +  (x || y))
         println("!y = " +  (!y))
+
+        var humid = true
+        var raining = true
+        var jacket = false
+
+        println(!humid)
+        // Prints: false
+
+        println(jacket && raining)
+        // Prints: true
+
+        println(humid || raining)
+        // Prints: true
     }
     private fun bitwiseOperators() {
         //Kotlin Bitwise Operators

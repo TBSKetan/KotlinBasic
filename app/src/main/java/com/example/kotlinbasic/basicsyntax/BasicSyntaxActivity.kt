@@ -10,6 +10,47 @@ class BasicSyntaxActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_basic_syntax)
+        interview()
+    }
+
+    private fun interview() {
+        variableDeclaration()
+        nullableAndNonNullableTypes()
+
+    }
+
+    private fun nullableAndNonNullableTypes() {
+        println("------------nullableAndNonNullableTypes------------")
+        //Not allowed null value in s1 variable
+        var s1:String = "Ketan" //s1 = null //compilation error
+        val l = s1.length
+        println("The length of string s1 is: "+s1.length)
+
+        //Allowed null value in s2 variable
+        var s2 : String? = "Ketan"
+        s2 = null // ok
+        println(s2) //ok
+        //println(s2.length) // compiler error because string can be null
+
+        // variable declared as nullable
+        var s: String? = "Ketan Nakum"
+        println(s)
+        if (s != null) {
+            println("String of length ${s.length}")
+        } else {
+            println("Null string")
+        }
+        // assign null
+        s = null
+        println(s)
+        if (s != null) {
+            println("String of length ${s.length}")
+        } else {
+            println("Null String")
+        }
+    }
+
+    private fun variableDeclaration() {
 
         //simple print hello world in kotlin
         var strHelloWorld: String = "Hello World"
@@ -47,9 +88,5 @@ class BasicSyntaxActivity : AppCompatActivity() {
         var empName : String = "Ketan Nakum"
         var empAge : Int = 20
         Log.i(TAG, "onCreate 4: Name is $empName and Age : $empAge")
-
-
-
-
     }
 }

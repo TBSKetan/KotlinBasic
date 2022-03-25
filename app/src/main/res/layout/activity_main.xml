@@ -55,4 +55,17 @@
         android:text="@string/ranges"
         app:layout_constraintTop_toBottomOf="@+id/btnArrays" />
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnConditionExpression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/condition_expression"
+        app:layout_constraintTop_toBottomOf="@+id/btnRanges" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnControlFlow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/control_flow"
+        app:layout_constraintTop_toBottomOf="@+id/btnConditionExpression" />
 </androidx.constraintlayout.widget.ConstraintLayout>

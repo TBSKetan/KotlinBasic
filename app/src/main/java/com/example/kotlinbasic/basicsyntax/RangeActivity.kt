@@ -19,8 +19,28 @@ class RangeActivity : AppCompatActivity() {
         rangeCharacters()
         rangeReversed()
         rangeUntil()
+        rangeOperator()
+        equalityOperators()
     }
 
+    private fun equalityOperators() {
+        println("------------equalityOperators------------")
+        var myAge = 22
+        var sisterAge = 21
+
+        myAge == sisterAge // false
+        myAge !== sisterAge // true
+        println(myAge)
+    }
+
+    private fun rangeOperator() {
+        println("------------rangeOperator------------")
+        var height = 46 // inches
+
+        if (height in 1..53) {
+            println("Sorry, you must be at least 54 inches to ride the rollercoaster.")
+        }
+    }
 
 
     private fun rangesUsingRangeTo() {
