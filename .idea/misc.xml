@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/Ketan/Android/DemoCode/Kotlin/KotlinBasic/app/src/main/res/layout/activity_basic_syntax.xml" value="0.17604166666666668" />
         <entry key="..\:/Ketan/Android/DemoCode/Kotlin/KotlinBasic/app/src/main/res/layout/activity_data_types.xml" value="0.13802083333333334" />
+        <entry key="..\:/Ketan/Android/DemoCode/Kotlin/KotlinBasic/app/src/main/res/layout/activity_function.xml" value="0.18385416666666668" />
         <entry key="..\:/Ketan/Android/DemoCode/Kotlin/KotlinBasic/app/src/main/res/layout/activity_main.xml" value="0.340625" />
         <entry key="..\:/Ketan/Android/DemoCode/Kotlin/KotlinBasic/app/src/main/res/layout/activity_operators.xml" value="0.13802083333333334" />
         <entry key="..\:/Ketan/Android/DemoCode/Kotlin/KotlinBasic/app/src/main/res/layout/activity_range.xml" value="0.2" />
+        <entry key="..\:/Ketan/Android/DemoCode/Kotlin/KotlinBasic/app/src/main/res/layout/activity_type_checking_smart_casting.xml" value="0.13229166666666667" />
       </map>
     </option>
   </component>
