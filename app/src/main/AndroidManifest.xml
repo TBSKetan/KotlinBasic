@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinBasic">
         <activity
+            android:name=".basicsyntax.TypeCheckingSmartCastingActivity"
+            android:exported="false" />
+        <activity
             android:name=".basicsyntax.ConditionalExpressionsActivity"
             android:exported="false" />
         <activity

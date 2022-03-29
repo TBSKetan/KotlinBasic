@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnRanges.setOnClickListener(this)
         binding.btnConditionExpression.setOnClickListener(this)
         binding.btnControlFlow.setOnClickListener(this)
+        binding.btnTypeCheckingSmartCast.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -74,6 +75,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnControlFlow -> {
                 val intent = Intent(this, ControlFlowActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.btnTypeCheckingSmartCast -> {
+                val intent = Intent(this, TypeCheckingSmartCastingActivity::class.java)
                 startActivity(intent)
             }
         }

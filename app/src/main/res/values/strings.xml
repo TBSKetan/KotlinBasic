@@ -17,6 +17,9 @@
     <string name="ranges">Ranges</string>
     <string name="condition_expression">Condition Expression</string>
     <string name="control_flow">Control Flow</string>
+    <string name="title_activity_type_checking_and_smart_cast">TypeCheckingAndSmartCastActivity
+    </string>
+    <string name="type_checking_smart_cast">Type Checking Smart Cast</string>
     <!--    learn from-->
-<!--    https://www.codecademy.com/learn/learn-kotlin/modules/learn-kotlin-conditional-expressions/cheatsheet-->
+    <!--    https://www.codecademy.com/learn/learn-kotlin/modules/learn-kotlin-conditional-expressions/cheatsheet-->
 </resources>
