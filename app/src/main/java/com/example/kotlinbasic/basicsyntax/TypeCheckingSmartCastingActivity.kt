@@ -18,8 +18,6 @@ class TypeCheckingSmartCastingActivity : AppCompatActivity() {
         smartCastingUseingOperator()
     }
 
-
-
     private fun typeCheckingUsingIfElse() {
         println("------------typeChecking------------")
         val name = "Ketan"
@@ -80,6 +78,5 @@ class TypeCheckingSmartCastingActivity : AppCompatActivity() {
         }else{
             println("Length of String ${str1.length}")
         }
-
     }
 }
