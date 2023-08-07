@@ -10,7 +10,6 @@ class OperatorsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_operators)
         interview()
     }
-
     private fun interview() {
         val a: Int = 40
         val b: Int = 20
