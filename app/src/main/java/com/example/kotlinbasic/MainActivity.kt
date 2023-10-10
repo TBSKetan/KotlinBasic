@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         // binding.root returns the root layout,
         // which is activity_main.xml file itself
         //setContentView(bindingView.root)
-        setContentView(view)
+        setContentView(view) 
         interview()
     }
 
