@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinBasic">
         <activity
+            android:name=".collections.ListCollectionActivity"
+            android:exported="false" />
+        <activity
             android:name=".basicsyntax.FunctionActivity"
             android:exported="false" />
         <activity

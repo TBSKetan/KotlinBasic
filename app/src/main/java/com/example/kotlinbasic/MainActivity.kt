@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.example.kotlinbasic.basicsyntax.*
+Addimport com.example.kotlinbasic.collections.ListCollectionActivity
 import com.example.kotlinbasic.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding.btnControlFlow.setOnClickListener(this)
         binding.btnTypeCheckingSmartCast.setOnClickListener(this)
         binding.btnFunction.setOnClickListener(this)
+        binding.btnCollectionList.setOnClickListener(this)
     }
 
     override fun onClick(view: View?) {
@@ -86,6 +88,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                 val intent = Intent(this, FunctionActivity::class.java)
                 startActivity(intent)
 
+            }
+            R.id.btnCollectionList->{
+                val intent = Intent(this, ListCollectionActivity::class.java)
+                startActivity(intent)
             }
         }
     }
